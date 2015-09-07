@@ -1,0 +1,14 @@
+{
+  "name": "Ask a Meerkat",
+  "description": "Ask a Meerkat and learn how to live a happier life!",
+  "version": "1",
+  "browser_action":
+  {
+    "default_icon": "meerkat.png"
+  },
+  "background":{
+    "scripts": ["background.js"]
+  },
+  "permissions": ["tabs"],
+  "manifest_version": 2
+}
